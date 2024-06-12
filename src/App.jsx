@@ -5,6 +5,7 @@ import ProductTable from './components/ProductTable'
 import ProductForm from './components/ProductForm'
 
 // CRUD COM JSON SERVER
+// teste02
 
 function App() {  
   const [products, setProducts] = useState([]);
