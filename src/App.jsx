@@ -14,6 +14,8 @@ function App() {
   const [stock, setStock] = useState("");
   const [edit, setEdit] = useState(false);
 
+  //teste
+
   const url = 'http://localhost:3000/products';
 
   useEffect(() => {
