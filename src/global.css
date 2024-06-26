@@ -1,0 +1,66 @@
+:root {
+    --primary-color: #6a0dad;
+    --secondary-color: #d8bfd8;
+    --background-color: #f3e5f5;
+    --text-color: #ffffff;
+    --button-color: #8a2be2;
+    --button-hover-color: #7b1fa2;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: var(--background-color);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: var(--primary-color);
+}
+
+button {
+    background-color: var(--button-color);
+    color: var(--text-color);
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: var(--button-hover-color);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px 0;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid var(--primary-color);
+    text-align: left;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+tr:nth-child(even) {
+    background-color: var(--secondary-color);
+}

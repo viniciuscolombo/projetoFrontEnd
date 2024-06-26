@@ -1,14 +1,16 @@
-import React from 'react'
-import { Link, NavLink} from 'react-router-dom'
-import './NavBar.css'
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import './NavBar.css';
 
 function NavBar() {
     return (
-        <div>
-            <span style={{padding: '8px'}}><NavLink to={'/'} className={({isActive}) => (isActive ? 'active': '')}>Home</NavLink></span>
-            <span style={{padding: '8px'}}><NavLink to={'/products'} className={({isActive}) => (isActive ? 'active': '')}>Produtos</NavLink></span>
-        </div>
-    )
+        <nav className="navbar">
+            <span><NavLink to="/home" className={({ isActive }) => (isActive ? 'active' : undefined)}>Home</NavLink></span>
+            <span><NavLink to="/products" className={({ isActive }) => (isActive ? 'active' : undefined)}>Serviços</NavLink></span>
+            <span><NavLink to="/users" className={({ isActive }) => (isActive ? 'active' : undefined)}>Usuários</NavLink></span>
+            <span><NavLink to="/login" className={({ isActive }) => (isActive ? 'active' : undefined)}>Login</NavLink></span>
+        </nav>
+    );
 }
 
-export default NavBar
+export default NavBar;

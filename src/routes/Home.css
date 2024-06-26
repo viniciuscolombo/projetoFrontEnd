@@ -1,0 +1,31 @@
+.home-container {
+    padding: 20px;
+    background-color: #f3e5f5; 
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    text-align: center; 
+}
+
+.home-container h2 {
+    color: #333; 
+}
+
+.home-container p {
+    color: #555; 
+}
+
+.home-images {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.home-images img {
+    width: 150px; 
+    height: 150px; 
+    border-radius: 8px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}

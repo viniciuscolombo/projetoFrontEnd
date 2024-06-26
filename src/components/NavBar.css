@@ -1,4 +1,21 @@
-.active {
-    color: red;
-    font-weight: 900;
+.navbar {
+    background-color: black; 
+    color: white; 
+    padding: 10px 20px; 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.navbar span {
+    margin: 0 10px; 
+}
+
+.navbar a {
+    color: white; 
+    text-decoration: none; 
+}
+
+.navbar a:hover {
+    color: #ccc; 
 }
