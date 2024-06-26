@@ -1,10 +1,22 @@
 {
-  "products": [
+  "users": [
     {
-      "name": "Uva",
-      "price": "15",
-      "stock": "30",
-      "id": "630f"
+      "id": "0e9b",
+      "name": "Vinícius Teixeira Colombo",
+      "email": "viniciustcolombo@gmail.com",
+      "phone": "48998070758",
+      "address": "Bairro Operário Nova, Rua Santarém, 489",
+      "password": "senha1"
+    }
+  ],
+  "services": [
+    {
+      "id": "b26a",
+      "name": "Mateus SIlva",
+      "description": "descricao de teste do servico 1",
+      "price": "500",
+      "duration": "1 hora",
+      "category": "reparos"
     }
   ]
 }
